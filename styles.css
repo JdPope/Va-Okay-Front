@@ -1,0 +1,161 @@
+.navbar {
+  overflow: hidden;
+  background-color: #F3B700;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .returninguser {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar li:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content li:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+html {
+  background-color: #F18F01;
+}
+body {
+  background-color: #931621;
+  height: 125vh;
+}
+.links {
+  border: 1px solid #fff;  /* For debugging */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+
+h1 {
+  display: block;
+  padding-right: 100px;
+  margin: auto;
+  font-style: italic;
+  color: #F3B700;
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  font-size: 400px;
+}
+
+h2 {
+  display: block;
+  margin:auto;
+  color: #33658A;
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  font-size: 100px;
+}
+
+article {
+  padding: 40px 32px;
+  color: #33658A;
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #DDE0E3
+}
+
+li:hover,
+li:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+li {
+  display: block;
+  background-color: #931621;
+  border: 2px solid #33658A;
+  color: #33658A;
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+button:hover,
+button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+button{
+  border: none;
+  background-color: #F3B700
+}
+
+
+/* .returninguser {
+  display: block;
+  margin-left: 520px;
+  background-color: #33658A;
+  border: 2px solid #F3B700;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+
+/* .newuser {
+  display: block;
+  background-color: #33658A;
+  border: 2px solid #F3B700;
+  color: white;
+  padding: 15px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Va-Okay!</title>
+    <link href="https://unpkg.com/tabulator-tables@4.2.7/dist/css/tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.2.7/dist/js/tabulator.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">New User</a>
+  <div class="dropdown">
+    <!-- <button class="dropbtn">Dropdown -->
+      <button class="returninguser">Returning User
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    </div>
+  </div>
+</div>
+
+    <div class="welcomepage">
+      <h2>Welcome to</h2>
+      <h1>Va-<em>Okay!</em></h1>
+      <ul class="welcome"></ul>
+        <article class="about">This is text about who we are, telling you our story, what we do and why we're amazing. You should totally use our app.</article>
+        <!-- <button class="returninguser">Returning User</button> -->
+
+    </div>
+
+    <div class="userpage">
+      <h2 class="usertitle"></h2>
+      <ul class="vacations"></ul>
+    </div>
+
+    <div class="vacationpage">
+        <h2 class="vacationname"></h2>
+      <div id="example-table"></div>
+      <button id="add-row"></button>
+      <button id="submitRow">submit</button>
+      <ul class="vacationdata"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
